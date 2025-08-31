@@ -4,12 +4,6 @@ on: [push]
 jobs:
   build:
     runs-on: windows-latest
-    
-    # This is the new line you need to add.
-    # It tells all steps in this job to run inside the "FoundryOcrProject" folder.
-    defaults:
-      run:
-        working-directory: FoundryOcrProject
 
     steps:
     - name: Checkout repository
