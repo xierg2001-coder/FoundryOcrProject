@@ -4,7 +4,7 @@ using System.IO;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
-using Microsoft.AI.Vision.Ocr;
+using Microsoft.Windows.AI.imaging;
 using Microsoft.Windows.AI;
 using Microsoft.Graphics.Imaging;
 using Windows.Graphics.Imaging;
